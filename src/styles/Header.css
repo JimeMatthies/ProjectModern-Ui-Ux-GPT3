@@ -22,10 +22,10 @@
 
 .gpt3__header-content p {
     font-family: var(--font-family);
+    color: var(--color-text);
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: var(--color-text);
     margin-top: 1.5rem;
 }
 
