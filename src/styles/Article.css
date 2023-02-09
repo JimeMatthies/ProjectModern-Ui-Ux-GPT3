@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    background: var(--color-footer);
+    background: var(--color-blog);
 }
 
 .gpt3__blog-container__article-image {
