@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 /* import { BrowserRouter, Route, Routes } from 'react-router-dom'; */
+import Blog from './components/Blog';
 import Brand from './components/Brand';
 import Cta from './components/Cta';
+import Features from './components/Features';
 import Footer from './components/Footer';
+import Header from './components/Header';
 import Navbar from './components/Navbar';
-import Blog from './containers/Blog';
-import Features from './containers/Features';
-import Header from './containers/Header';
-import Posibility from './containers/Posibility';
-import WhatGPT3 from './containers/WhatGPT3';
+import Posibility from './components/Posibility';
+import WhatGPT3 from './components/WhatGPT3';
 
 const App = () => {
     return (
