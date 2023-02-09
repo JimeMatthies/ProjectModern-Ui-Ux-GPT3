@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "../styles/Article.css"
 
 const Article = ({ imgUrl, date, text }) => (
