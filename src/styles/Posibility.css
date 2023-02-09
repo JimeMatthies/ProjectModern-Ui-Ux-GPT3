@@ -26,10 +26,10 @@
 
 .gpt3__possibility-content h4 {
     font-family: var(--font-family);
+    color: #71E5FF;
     font-weight: 500;
     font-size: 16px;
     line-height: 30px;
-    color: #71E5FF;
 }
 
 .gpt3__possibility-content h4:last-child {
@@ -45,8 +45,8 @@
 }
 
 .gpt3__possibility-content p {
-    color: var(--color-text);
     font-family: var(--font-family);
+    color: var(--color-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;

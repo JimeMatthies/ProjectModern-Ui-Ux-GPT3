@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/Feature.css"
 import PropTypes from "prop-types";
+import "../styles/Feature.css"
 
 const Feature = ({title, text}) => {
     return (

@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/WhatGPT3.css";
 import Feature from "./Feature";
+import "../styles/WhatGPT3.css";
 
 const WhatGPT3 = () => {
     return (

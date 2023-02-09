@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import "../styles/Article.css"
 
 const Article = ({ imgUrl, date, text }) => (
@@ -15,5 +16,11 @@ const Article = ({ imgUrl, date, text }) => (
         </div>
     </div>
 );
+
+Article.propTypes = {
+    imgUrl: PropTypes.object.isRequired,
+    date: PropTypes.string.isRequired,
+    text: PropTypes.string.isRequired
+};
 
 export default Article;
